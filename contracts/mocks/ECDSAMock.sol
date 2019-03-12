@@ -1,6 +1,7 @@
 pragma solidity >=0.5.0 <0.6.0;
 
-import "../lib/ECDSA.sol";
+import "../vendor/lib/ECDSA.sol";
+
 
 contract ECDSAMock {
     using ECDSA for bytes32;
